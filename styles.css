@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    height: 402px;
+    width: 402px;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 134px 134px  134px ;
+}
+
+.contenedor div{
+    height: 134px;
+    width: 134px;
+    border: 1px solid black;
+    font-size: 100px;    
+    text-align: center;
+}
+
+#c1,#c2,#c3{
+    border-top: none;
+    border-bottom: none;
+}
+
+#c1,#c4,#c7{
+    border-left: none;
+    border-right: none;
+}
+
+#c7,#c8,#c9{
+    border-bottom: none;
+    border-top: none;
+}
+
+#c9,#c6,#c3{
+    border-right: none;
+    border-left: none;
+}
